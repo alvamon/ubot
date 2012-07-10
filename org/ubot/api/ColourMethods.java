@@ -587,6 +587,15 @@ public class ColourMethods {
 		ColourBot.log(client,msg);
 	}
 	
+	/**
+	 * Logs the selected message to the client's log.
+	 * 
+	 * @param msg
+	 * @param lineColour
+	 */
+	public void log(String msg, Color lineColour) throws InterruptedException{
+		ColourBot.log(client,msg,lineColour);
+	}
 	
 	/**
 	 * Make a certain colour transparent within the image.
